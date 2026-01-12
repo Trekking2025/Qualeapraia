@@ -167,4 +167,27 @@ body {
 .destaque {
   border: 2px solid var(--amarelo);
   transform: scale(1.05);
+/* ===== MENU HEADER ===== */
+
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #eee;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.menu a:hover {
+  color: #0aa6a6;
+}
+
 }
