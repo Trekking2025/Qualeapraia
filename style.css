@@ -139,3 +139,32 @@ body {
     display: none;
   }
 }
+.price-card {
+  color: var(--azul);
+}
+
+.price-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.price-card li {
+  margin-bottom: 8px;
+}
+
+.price-card strong {
+  display: block;
+  font-size: 1.6rem;
+  margin: 20px 0;
+}
+
+.btn.small {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
+
+.destaque {
+  border: 2px solid var(--amarelo);
+  transform: scale(1.05);
+}
